@@ -293,3 +293,113 @@ body {
   align-items: center;
   justify-content: center;
 }
+.subscribe-section {
+  background-image: url('assets/news-letter-bg.png');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 100px 20px 60px;
+  color: white;
+  position: relative;
+}
+
+.overlay {
+  padding: 60px 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.subscribe-section h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.subscribe-form input {
+  padding: 12px;
+  width: 70%;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  font-size: 16px;
+}
+
+.subscribe-form button {
+  padding: 12px 20px;
+  background-color: orange;
+  border: none;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Footer section */
+.footer {
+  background: #fff;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-left {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-left .logo {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.footer-left p {
+  color: #444;
+  font-size: 14px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 50px;
+  flex: 2;
+  min-width: 250px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+  color: #444;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.footer-icons img {
+  width: 25px;
+  cursor: pointer;
+}
+
