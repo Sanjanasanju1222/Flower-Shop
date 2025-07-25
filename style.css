@@ -210,3 +210,86 @@ body {
   font-size: 16px;
   color: #333;
 }
+.deals-section {
+  background-color: #f5f6fc;
+  padding: 40px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.deals-section h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.deals-section .highlight {
+  color: orange;
+}
+
+.deals-section p {
+  max-width: 700px;
+  margin: 0 auto 40px;
+  color: #555;
+}
+
+.deals-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.deal-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.deal-card {
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  text-align: left;
+}
+
+.deal-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 0;
+}
+
+.deal-text {
+  position: relative;
+  z-index: 1;
+}
+
+.deal-card h4,
+.deal-card h2 {
+  margin: 0 0 10px;
+}
+
+.deal-card a {
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.deal-card.small {
+  width: 250px;
+  height: 120px;
+}
+
+.deal-card.large {
+  width: 500px;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+}
